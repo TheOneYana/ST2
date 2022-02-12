@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    margin: 10px;
+}
+
+p{
+    margin:0;
+    padding: 10px;
+}
+.container{
+    max-width: 750px;
+    margin: 20px auto;
+}
+.first, .second, .third{
+    background-color: yellow;
+    padding: 5px;
+    border: 1px dashed green;
+}
+@media (min-width: 450px) {
+    .first, .second, .third {
+        float:left;
+        width: 33.3%;
+    }
+}

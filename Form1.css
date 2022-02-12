@@ -1,0 +1,64 @@
+form{
+    background-color: rgb(68, 48, 37);
+    color: white;
+    width: 600px;
+    padding: 8px 8px 40px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    left:15%;
+}
+h1,h2,h5{
+    font-weight: lighter;
+}
+
+
+/* input#address{
+    margin-left: 18%;
+}
+input#email{
+    margin-left: 1;
+} */
+.first label{
+    width:100px;
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+.check input, select{
+   
+    margin-left: 5%;
+
+}
+#ed, .gender label{
+    margin-left: 5%;
+    
+}
+.date{
+    margin-top: 8px;
+    width:70px;
+    display: inline-block;
+    margin-left: 5%;
+}
+textarea, button{
+    margin-left: 5%;
+  
+}
+button{
+    height: 20px;
+    width: 50px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 1px;
+    background-color: white;
+    color: rgb(88, 23, 23);
+    float: left;
+}
+::placeholder{
+      color: rgb(88, 23, 23);
+}
+select{
+    margin-top: 8px;
+}
+.b{
+    margin-left: 14px;
+}

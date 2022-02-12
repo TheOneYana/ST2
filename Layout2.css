@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    position: sticky;
+}
+.clr{
+    clear:both;
+}
+.container{
+    margin:auto;
+    width: 95%;
+  
+}
+
+img{
+    width:100%;
+    height: 350px;
+    object-fit: cover;
+   
+}
+.card{
+    float: left;
+    border: 1px lightgrey solid;
+    height:600px;
+    /* margin-bottom: 25px; */
+    /* box-shadow: x y blur spread color;
+    google: box-shadow generator*/
+    box-shadow: 8px 3px 5px -5px #000000;
+ 
+}
+.big{
+    width:65%;
+}
+.small{
+    width:30%;
+
+    
+}
+.m-right{
+    margin-right: 5%;
+}
+/* .m-bottom{
+    margin-bottom: 100px;
+} */
+.bottom-wrapper{
+    margin-top: 5%;
+    /* use 'clear' whenever you use 'float' or it will mess up margin */
+}
+
+.content{
+    margin: 25px;
+    width: 90%;
+    position: sticky;
+    padding: 0 5px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    background-color: hotpink;
+  
+}
+
+/* .big .content{
+    width: 90%;
+} */
+.imgb{
+    width:100%;
+    height: 406px;
+    object-fit: cover;
+}
